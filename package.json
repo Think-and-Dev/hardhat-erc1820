@@ -1,9 +1,9 @@
 {
-  "name": "hardhat-erc1820",
+  "name": "@thinkanddev/hardhat-erc1820-rsk",
   "version": "0.1.0",
   "description": "Hardhat plugin to automatically deploy the ERC-1820 Registry contract.",
-  "repository": "github:dmihal/hardhat-erc1820",
-  "author": "David Mihal",
+  "repository": "https://github.com/Think-and-Dev/hardhat-erc1820",
+  "author": "Pedro Prete",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,6 +18,12 @@
     "src/",
     "LICENSE",
     "README.md"
+  ],
+  "keywords": [
+    "rsk",
+    "erc1820",
+    "1820",
+    "hardhat"
   ],
   "devDependencies": {
     "@types/fs-extra": "^5.0.4",
