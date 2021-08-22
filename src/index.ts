@@ -8,7 +8,7 @@ const ERC1820_PAYLOAD = '0xf90a388085174876e800830c35008080b909e5608060405234801
 
 async function ensureERC1820(provider: EthereumProvider): Promise<void> {
   const code = await provider.send('eth_getCode', [ERC1820_ADDRESS, 'latest']);
-  if (code === '0x' || code === '0x00') {
+  if (code.toString() === '0x' || code.toString() === '0x00') {
     const [from] = await provider.send('eth_accounts');
 
     const tx = await provider.send('eth_sendTransaction', [{

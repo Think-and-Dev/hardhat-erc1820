@@ -1,6 +1,6 @@
 {
   "name": "@thinkanddev/hardhat-erc1820-rsk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Hardhat plugin to automatically deploy the ERC-1820 Registry contract.",
   "repository": "https://github.com/Think-and-Dev/hardhat-erc1820",
   "author": "Pedro Prete",
